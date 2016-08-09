@@ -1,10 +1,18 @@
 package com.Zoo;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Zoo {
 
 	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Do you want to know what animals I saw today? (y/n)");
+		String userInput = sc.nextLine();
+		//boolean y = true;
+		
+		if(userInput.equalsIgnoreCase("y")){
 		
 		ArrayList<Animal> ourZoo = new ArrayList<>(10);
 		
@@ -19,15 +27,15 @@ public class Zoo {
 		Cheetah cheetahB = new Cheetah("Cheetah", "male", 4, 40, "by the water");
 		Cheetah cheetahC = new Cheetah("Cheetah", "female", 4, 45, "in the den");
 		
-		ourZoo.add(monkeyA);
-		ourZoo.add(monkeyB);
+		ourZoo.add(cheetahA);
+		ourZoo.add(lionB);
 		ourZoo.add(monkeyC);
 		ourZoo.add(alligatorA);
+		ourZoo.add(monkeyA);
+		ourZoo.add(cheetahB);
+		ourZoo.add(monkeyB);
 		ourZoo.add(alligatorB);
 		ourZoo.add(lionA);
-		ourZoo.add(lionB);
-		ourZoo.add(cheetahA);
-		ourZoo.add(cheetahB);
 		ourZoo.add(cheetahC);		
 
 		
@@ -36,6 +44,8 @@ public class Zoo {
 		System.out.println("Today at the zoo I saw a " + (ourZoo).get(i));
 		
 		
+		}
+		else System.out.println("Okay then!  Have a nice day.");
 	}
 
 	
