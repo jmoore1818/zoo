@@ -28,9 +28,12 @@ public class Alligator extends Animal{
 
 	@Override
 	public String toString() {
-		return "Alligator [teeth=" + teeth + ", lengthOfTail=" + lengthOfTail + ", species=" + species + ", gender="
-				+ gender + ", age=" + age + "]";
+		return "alligator with " + teeth + " teeth.  The length of it's tail was " + lengthOfTail + " ft.  The " + species + "'s gender was "
+				+ gender + " and age was " + age;
+	}
+
+
 	}
 	
 	
-}
+

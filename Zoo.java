@@ -15,9 +15,9 @@ public class Zoo {
 		Alligator alligatorB = new Alligator("Alligator", "female", 25, 216, 2);
 		Lion lionA = new Lion("Lion", "male", 10, "Calves", 2);
 		Lion lionB = new Lion("Lion", "male", 12, "Antelopes", 8);
-		Cheetah cheetahA = new Cheetah("Cheetah", "female", 12, 45, "Pride Rock");
-		Cheetah cheetahB = new Cheetah("Cheetah", "male", 4, 40, "By the water");
-		Cheetah cheetahC = new Cheetah("Cheetah", "female", 4, 45, "In the den");
+		Cheetah cheetahA = new Cheetah("Cheetah", "female", 12, 45, "pride rock");
+		Cheetah cheetahB = new Cheetah("Cheetah", "male", 4, 40, "by the water");
+		Cheetah cheetahC = new Cheetah("Cheetah", "female", 4, 45, "in the den");
 		
 		ourZoo.add(monkeyA);
 		ourZoo.add(monkeyB);
@@ -30,8 +30,12 @@ public class Zoo {
 		ourZoo.add(cheetahB);
 		ourZoo.add(cheetahC);		
 
+		
+		for(int i=0; i< ourZoo.size(); i++)
 	
-		System.out.println("Today at the zoo I saw a " + ourZoo.get(5));
+		System.out.println("Today at the zoo I saw a " + (ourZoo).get(i));
+		
+		
 	}
 
 	

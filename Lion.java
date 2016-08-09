@@ -28,9 +28,11 @@ public class Lion extends Animal {
 
 	@Override
 	public String toString() {
-		return "Lion [favoriteFood=" + favoriteFood + ", numberOfChildren=" + numberOfChildren + ", species=" + species
-				+ ", gender=" + gender + ", age=" + age + "]";
+		return "lion whos favorite meal is " + favoriteFood + "  This lion had " + numberOfChildren + " cubs.  This " + species
+				+ " was a " + gender + " that was " + age + " years old.";
 	}
+
+
 	
 	
 }

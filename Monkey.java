@@ -37,13 +37,18 @@ public class Monkey extends Animal{
 
 	@Override
 	public String toString() {
-		return "Monkeys [bananas=" + bananas + ", personality=" + personality + ", species=" + species + ", gender="
-				+ gender + ", age=" + age + "]";
+		return "monkey that had " + bananas + " bananas. This monkey's tempermant was " + personality + ".  The " + species + "'s gender was "
+			
+				+ gender + " and age was " + age;
 	}
 
 
 
 	}
+
+
+
+
 
 
 

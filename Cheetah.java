@@ -28,9 +28,11 @@ public class Cheetah extends Animal {
 
 	@Override
 	public String toString() {
-		return "Cheetah [topSpeed=" + topSpeed + ", favPlace=" + favPlace + ", species=" + species + ", gender="
-				+ gender + ", age=" + age + "]";
+		return "cheetah.  It was fast with a top speed of " + topSpeed + " mph!  It's favorite place to hang out was " + favPlace + ".  This " + species + " was a "
+				+ gender + " who was " + age + " years old.";
 	}
+
+	
 	
 	
 	
